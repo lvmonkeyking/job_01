@@ -1,0 +1,20 @@
+.a {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: aquamarine;
+    margin-left: 100px;
+    border: 2px solid black;
+    /* animation: move 2s linear infinite; */
+
+}
+
+@keyframes move {
+    0% {}
+
+    100% {
+        transform: translateX(500px);
+    }
+
+
+}
